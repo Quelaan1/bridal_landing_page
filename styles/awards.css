@@ -1,0 +1,41 @@
+.awards {
+  padding: 110px;
+  text-align: center;
+}
+
+.awards__title {
+  padding-bottom: 50px;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 51px;
+  text-transform: uppercase;
+}
+
+.awards__title-part {
+  font-weight: 700;
+  color: var(--background);
+}
+
+.awards__cards {
+  align-items: flex-end;
+}
+
+.awards__card-left_arrow,
+.awards__card-right_arrow {
+  position: absolute;
+  bottom: -200%;
+  width: 56px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 0px 8px 8px 0px;
+  background-color: var(--color_white);
+  cursor: pointer;
+}
+
+.awards__card-left_arrow {
+  left: 0;
+}
+
+.awards__card-right_arrow {
+  right: 0;
+}

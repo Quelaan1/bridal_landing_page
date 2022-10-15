@@ -1,0 +1,33 @@
+.vision {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+}
+
+.vision__heading {
+  padding-bottom: 20px;
+
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+  line-height: 39px;
+}
+
+.vision__bride {
+  padding-top: 54px;
+  margin: 0 auto;
+}
+
+.vision__right-items {
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 126px;
+  display: flex;
+  background-color: #e7d4ff;
+}
+
+.vision__description {
+  font-size: 16px;
+  font-family: 'Mulish';
+  line-height: 173%;
+  text-align: center;
+}

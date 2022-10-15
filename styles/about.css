@@ -1,0 +1,54 @@
+.about {
+  justify-content: center;
+  display: flex;
+  margin: 50px auto 0 auto;
+  max-width: 1000px;
+}
+
+.about__heading {
+  padding-top: 100px;
+  padding-bottom: 16px;
+
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 51px;
+}
+
+.about__heading-part {
+  color: var(--background);
+
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 51px;
+}
+
+.about__description {
+  padding-bottom: 20px;
+
+  font-size: 18px;
+  font-family: Mulish;
+  font-weight: 400;
+  line-height: 31px;
+  text-align: left;
+  letter-spacing: 0em;
+}
+
+.about__button {
+  border-radius: 26px;
+  border: 0;
+  width: 162px;
+  height: 39px;
+
+  background: var(--background);
+
+  font-size: 20px;
+  font-family: Inria Serif;
+  font-weight: 700;
+  line-height: 19px;
+  color: var(--color_white);
+}
+
+.about__button:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.08) 0px 10px 10px -5px;
+}

@@ -1,0 +1,13 @@
+.founders__title {
+  padding: 160px 0 74px;
+
+  font-size: 42px;
+  text-align: center;
+  line-height: 51px;
+}
+
+.founders__title-part {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--background);
+}
